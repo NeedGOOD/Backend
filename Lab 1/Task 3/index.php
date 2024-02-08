@@ -9,15 +9,12 @@
 <body>
     <?php
     $number_month = rand(1, 12);
-    echo "<div>";
     echo "Зараз число = ".$number_month."<br>";
 
     if ($number_month == 1 || $number_month == 2 || $number_month == 12) { echo "Зима"; }
     elseif ($number_month >= 3 && $number_month <= 5) { echo "Весна"; }
     elseif ($number_month >= 6 && $number_month <= 8) { echo "Літо"; }
     elseif ($number_month >= 9 && $number_month <= 11) { echo "Осінь"; }
-
-    echo "</div>";
     ?>
 </body>
 </html>

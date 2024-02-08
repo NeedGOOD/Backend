@@ -9,7 +9,6 @@
 <body>
     <?php
     echo "<h1>Використовуються англійські літери</h1>";
-    echo "<div>";
 
     $symbol = chr(rand(97, 122));
     echo "Зараз літера = ".$symbol."<br>";
@@ -29,8 +28,6 @@
             echo "Літера ".$symbol." <b><i>приголосна</i></b>";
             break;
     }
-
-    echo "</div>";
     ?>
 </body>
 </html>
