@@ -1,0 +1,23 @@
+table,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+    
+td {
+    padding: 30px;
+}
+
+.black-background {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.square {
+    background-color: red;
+    position: sticky;
+}
