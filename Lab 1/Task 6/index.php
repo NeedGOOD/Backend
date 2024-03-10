@@ -12,7 +12,7 @@
         $rows = rand(2, 5);
         $columns = $rows;
 
-        echo "<table >";
+        echo "<table>";
         for ($i = 0; $i < $rows; ++$i) {
             echo "<tr>";
             for ($y = 0; $y < $columns; ++$y) {
