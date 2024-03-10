@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,7 +32,7 @@
         </table>
     </form>
     <?php
-    require 'first_task.php';
+    require './projects/first_task.php';
     ?>
     <hr>
     <!-- Сортування міст по алфавіту -->
@@ -51,7 +49,7 @@
         </table>
     </form>
     <?php
-    require 'second_task.php';
+    require './projects/second_task.php';
     ?>
     <hr>
     <!-- Виведення ім'я файлу -->
@@ -68,7 +66,7 @@
         </table>
     </form>
     <?php
-    require 'third_task.php';
+    require './projects/third_task.php';
     ?>
     <hr>
     <!-- Кількість днів між датами -->
@@ -90,7 +88,7 @@
         </table>
     </form>
     <?php
-    require 'fourth_task.php';
+    require './projects/fourth_task.php';
     ?>
     <hr>
     <!-- Генератор паролів -->
@@ -107,7 +105,7 @@
         </table>
     </form>
     <?php
-    require 'fifth_task.php';
+    require './projects/fifth_task.php';
     ?>
     <hr>
     <!-- Перевірка пароля -->
@@ -124,7 +122,7 @@
         </table>
     </form>
     <?php
-    require 'additional_task.php';
+    require './projects/additional_task.php';
     ?>
 </body>
 </html>
