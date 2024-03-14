@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.favorite-games {
+    vertical-align: top;
+}
+
+p {
+    margin-block: 0%;
+}
+
+.games {
+    display: flex;
+}
